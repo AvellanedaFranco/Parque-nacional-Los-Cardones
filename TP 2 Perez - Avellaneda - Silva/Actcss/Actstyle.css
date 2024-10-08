@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#body{
+    background-color: #E58665;
+}
+
+
+.titulo{
+    color: #4BE648;
+    text-align: center;
+}
+
+
+ul{
+    list-style: none;
+    font-size: 0; 
+    background-color: #E6D9B4;
+    margin: 5px 10px 5px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+li{
+    display: inline-block;
+    width: 16%;
+    position: relative;
+    font-size: 20px;
+}
+
+ul ul{
+    position: absolute; 
+    display: none;
+}
+
+ul ul li{
+    display: block;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+#actividades1{
+    display: flex;
+}
+
+.foto1{
+    margin: 40px 40px 40px 10px;
+    animation: aparecer 3s 1;
+    border: 5px solid #E6D9B4;
+}   
+
+.parraf1{
+    margin: 100px 10px 25px 25px;
+}
+
+
+#actividades2{
+    display: flex;
+}
+
+.foto2{
+    margin: 40px 40px 40px 10px;
+    animation: aparecer 3s 1;
+    border: 5px solid #E6D9B4;
+}
+
+.parraf2{
+    margin: 110px 10px 20px 20px;
+}
+
+
+#actividades3{
+    display: flex;
+}
+
+.foto3{
+    margin: 40px 40px 40px 10px;
+    animation: aparecer 3s 1;
+    border: 5px solid #E6D9B4;
+}
+
+.parraf3{
+    margin: 110px 10px 20px 20px;
+}
+
+
+#actividades4{
+    display: flex;
+}
+
+.foto4{
+    margin: 40px 40px 40px 10px;
+    animation: aparecer 3s 1;
+    border: 5px solid #E6D9B4;
+}
+
+.parraf4{
+    margin: 110px 10px 20px 20px;
+}
+
+
+#footer{
+    background-color: #E69026;
+    margin: 40px 0px 0px 0px;
+    display: flex;
+}
+
+.titfoot{
+    margin: 10px 10px 10px 10px;
+}
+
+.img1{
+    margin: 15px 30px 15px 30px;
+}
+
+.img2{
+    margin: 15px 30px 15px 30px;
+}
+
+.img3{
+    margin: 15px 30px 15px 30px;
+}
+ 
+.copy{
+    margin: 175px 10px 0px 150px;
+}
+
+
+@keyframes aparecer{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
