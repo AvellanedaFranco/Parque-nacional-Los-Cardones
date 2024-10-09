@@ -8,7 +8,7 @@ body{
 }
 
 #grad{
-    height: 400px;
+    height: 200px;
     width: 100%;
     background-image: linear-gradient(to bottom, #e69026, black);
 }
@@ -59,11 +59,11 @@ header{
 }
 
 main{
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 30px;
     display: grid;
     background-color: #e69026;
-    grid-template-areas: 
+    grid-template-rows: 20% 10% auto;
+    grid-template-areas:
         'main_titulo mapa'
         'explicación_parque mapa';
 }
@@ -72,6 +72,7 @@ main{
     height: 800px;
     width: 500px;
     transition: width 2s, height 2s;
+    grid-area: mapa;
 }
 
 #mapa:hover{
@@ -85,6 +86,7 @@ main{
     height: 220px;
     text-align: center;
     align-content: center;
+    grid-area: explicación_parque;
 }
 
 .main_titulo{
@@ -93,6 +95,7 @@ main{
     height: 50px;
     text-align: center;
     align-content: center;
+    grid-area: main_titulo;
 }
 
 .titfoot{
@@ -116,4 +119,15 @@ main{
  
 .copy{
     margin: 175px 10px 0px 150px;
+    color: white;
+}
+
+@media  and (max-width: 320px){;
+    body{
+        grid-template-rows: 50% 50%;
+        grid-template-areas: 
+        'main_titulo main_titulo'
+        'explicación_parque explicación_parque'
+        'mapa mapa';
+    }
 }
