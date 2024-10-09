@@ -122,7 +122,7 @@ main{
     color: white;
 }
 
-@media  and (max-width: 320px){;
+@media screen and (max-width: 320px){
     body{
         grid-template-rows: 50% 50%;
         grid-template-areas: 
