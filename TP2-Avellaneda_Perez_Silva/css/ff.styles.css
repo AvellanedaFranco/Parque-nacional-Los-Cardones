@@ -84,6 +84,12 @@ footer{
     color: white;
 }
 
+.Princ{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
 #Menu{
     height: 70px;
     width: 100%;
@@ -99,8 +105,78 @@ footer{
 
 #Logo{
     border-radius: 50%;
+    height: auto;
+    width: 600px;
 }
 
 #f_1{
     border-radius: 10%;
+    height: 500px;
+    width: 700px;
+}
+
+#Logo{
+    border-radius: 50%;
+    height: auto;
+    width: 600px;
+}
+
+#f_2{
+    border-radius: 10%;
+    height: 500px;
+    width: 700px;
+}
+
+#gatoPajonal{
+    border-radius: 10%;
+    height: 500px;
+    width: 800px;
+}
+
+#monterita{
+    border-radius: 10%;
+    height: 500px;
+    width: 700px;
+}
+
+#Rana{
+    border-radius: 10%;
+    height: 600px;
+    width: 800px;
+}
+
+#tuco{
+    border-radius: 10%;
+    height: 600px;
+    width: 700px;
+}
+
+#Yasto{
+    border-radius: 10%;
+    height: 500px;
+    width: 700px;
+}
+
+#zorro{
+    border-radius: 10%;
+    height: 500px;
+    width: 700px;
+}
+
+#img1{
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+#img2{
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+#img3{
+    width: 200px;
+    height: 180px;
+    border-radius: 40%;
 }

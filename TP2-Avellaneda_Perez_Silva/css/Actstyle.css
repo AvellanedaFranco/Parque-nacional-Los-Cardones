@@ -57,12 +57,18 @@ li a{
     margin: 40px 40px 40px 10px;
     animation: aparecer 3s 1;
     border: 5px solid #E6D9B4;
-}   
+    border-radius: 8%;
+}
+
+#foto1{
+    height: 100%;
+    width: 100%;
+    border-radius: 8%;
+}
 
 .parraf1{
     margin: 100px 10px 25px 25px;
 }
-
 
 #actividades2{
     display: flex;
@@ -72,6 +78,13 @@ li a{
     margin: 40px 40px 40px 10px;
     animation: aparecer 3s 1;
     border: 5px solid #E6D9B4;
+    border-radius: 8%;
+}
+
+#foto2{
+    height: 100%;
+    width: 100%;
+    border-radius: 8%;
 }
 
 .parraf2{
@@ -87,6 +100,13 @@ li a{
     margin: 40px 40px 40px 10px;
     animation: aparecer 3s 1;
     border: 5px solid #E6D9B4;
+    border-radius: 8%;
+}
+
+#foto3{
+    height: 100%;
+    width: 100%;
+    border-radius: 8%;
 }
 
 .parraf3{
@@ -102,6 +122,13 @@ li a{
     margin: 40px 40px 40px 10px;
     animation: aparecer 3s 1;
     border: 5px solid #E6D9B4;
+    border-radius: 8%;
+}
+
+#foto4{
+    height: 100%;
+    width: 100%;
+    border-radius: 8%;
 }
 
 .parraf4{
@@ -142,4 +169,22 @@ li a{
     }to{
         opacity: 1;
     }
+}
+
+#img1{
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+#img2{
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+#img3{
+    width: 200px;
+    height: 180px;
+    border-radius: 40%;
 }
